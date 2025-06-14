@@ -94,6 +94,3 @@ ATK
 ├── model                 # Code for all model architectures
 └── utils                 # Utility functions
 ```
-## 5. Future Updates
-
-In future updates, we will provide a more comprehensive introduction to 3DTAB, including its design principles, key features, and potential applications in adversarial attack and defense research. Additional examples and tutorials may also be included to facilitate its use and integration into related research projects.
