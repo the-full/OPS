@@ -1,0 +1,95 @@
+defaults:
+  - dataset: modelnet_hdf5
+  - attack@attacker: none
+  - defense@defenser: none
+  - model@models:
+    - pointnet
+    - pointnetpp_ssg
+    - pointnetpp_msg
+    - pointconv
+    - dgcnn
+    - pointcnn
+    - curvenet
+    - pt_hengshuang
+    - pt_menghao
+    - vn_pointnet
+    - vn_dgcnn
+    - point_pn
+    - pointcat
+    - pt_v1_cls26
+    - pt_v1_cls38
+    - pt_v1_cls50
+    - pt_v2
+    - pointmlp
+    - pointmlp_elite
+    - rscnn
+    - repsurf
+    - repsurf2
+  - _self_
+
+
+exp_name: Testing
+seed: 2024
+device: 
+  cuda_visible_devices:  "1"
+  id: 0
+  cuda: cuda:${device.id}
+process_title: ATK test
+verbose: False
+
+
+split: mixin
+surrogate_model: pointnet
+
+victim_models: 
+  - pointnet
+  - pointnetpp_ssg
+  - pointnetpp_msg
+  - pointconv
+  - dgcnn
+  - pointcnn
+  - curvenet
+  - pt_hengshuang
+  - pt_menghao
+  - vn_pointnet
+  - vn_dgcnn
+  - point_pn
+  - pointcat
+  - pt_v1_cls26
+  - pt_v1_cls38
+  - pt_v1_cls50
+  - pt_v2
+  - pointmlp
+  - pointmlp_elite
+  - rscnn
+
+victim_models_batch_size:
+  default: 50
+  # - pointnet: 50
+
+evaluator:
+  type: TransferEvaluator
+  device: ${device.id}
+  meta_info:
+    model_name:    ${surrogate_model}
+    attacker_name: ${attacker.type}
+    defenser_name: ${defenser.type}
+    dataset_name:  ${dataset.type}
+  hooks:
+    - type: DebugHook
+      debug_before_attack: False
+      debug_after_attack: False
+    - type: SaveHook
+      exp_name: ${exp_name}
+      save_atk: True
+      save_def: True
+      use_saved_atk_result: True
+      use_saved_def_result: True
+    - type: RecordHook
+      victim_models: ${victim_models}
+    
+  batch_size:    50
+  renorm_result: False
+  renorm_type:   default
+  budget:        0.18
+  budget_type:   point_linfty

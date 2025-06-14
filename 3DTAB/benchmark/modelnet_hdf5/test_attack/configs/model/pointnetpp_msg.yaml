@@ -1,0 +1,4 @@
+pointnetpp_msg:
+  type: PointNet++_MSG
+  num_classes: 40
+  feat_in: 0

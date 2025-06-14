@@ -1,0 +1,3 @@
+curvenet:
+  type: CurveNet
+  num_classes: 40

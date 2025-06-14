@@ -1,0 +1,63 @@
+defaults:
+  - data: modelnet_hdf5
+  - model: pointnet
+  - optional data_model_config: ${data}_${model}
+  - _self_
+
+device:
+  cuda_visible_devices:  "0"
+  id: 0
+  cuda: cuda:${device.id}
+
+mode: train
+
+seed: 2024
+process_title: ATK train
+
+output_dir: outputs/
+
+hydra:
+  output_subdir: config
+  run:
+    dir: ${output_dir}
+  sweep:
+    dir: ${output_dir}
+    subdir: ${hydra.job.override_dirname}
+
+
+data:
+  batch_size: ${set_batch_size:${data.type},${model.type}}
+
+
+trainer:
+  _target_: pytorch_lightning.Trainer
+  _convert_: all
+  max_epochs: ${set_epochs:${data.type},${model.type}}
+  check_val_every_n_epoch: 1
+  val_check_interval : 
+  log_every_n_steps: 10
+  limit_val_batches: 1.0
+  limit_test_batches: 1.0
+  # accelerator: auto
+  # devices: auto 
+  # strategy: auto
+  devices:
+    - ${device.id}
+
+  enable_model_summary: false
+
+  callbacks:
+  - _target_: pytorch_lightning.callbacks.ModelCheckpoint
+    dirpath: ${set_ckpt_dirpath:${data.type},${model.type}}
+    monitor: 'val_acc'
+    mode: 'max'
+    save_top_k: 1
+    save_last: true
+    filename: '${model.type}-{epoch}-{val_acc:.2f}'
+
+  logger:
+    _target_: pytorch_lightning.loggers.TensorBoardLogger
+    save_dir: ${output_dir}/${model.type}/
+    name: '.'
+    version: '.'
+

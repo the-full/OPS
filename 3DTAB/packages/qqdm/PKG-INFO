@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: qqdm
+Version: 0.0.7
+Summary: A very lightweight progress bar.
+Home-page: https://github.com/kimythanly/qqdm
+Author: KimythAnly
+Author-email: kimythanly@gmail.com
+License: UNKNOWN
+Description: # qqdm
+        
+        A lightweight, fast and pretty progress bar for Python
+        
+        ## Demo
+        <img src="https://github.com/KimythAnly/qqdm/blob/main/demo.gif" width="768"/>
+        
+        ## Installation
+        ```
+        pip install qqdm
+        ```
+        
+        ## Usage
+        The following is a simple example.
+        ```python
+        import time
+        import random
+        from qqdm import qqdm, format_str
+        
+        tw = qqdm(range(10), desc=format_str('bold', 'Description'))
+        
+        for i in tw:
+          loss = random.random()
+          acc = random.random()
+          tw.set_infos({
+            'loss': f'{loss:.4f}',
+            'acc': f'{acc:.4f}',
+          })
+          time.sleep(0.5)
+        ```
+        
+        For the demo gif shown above, you may refer to `tests/test.py`.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

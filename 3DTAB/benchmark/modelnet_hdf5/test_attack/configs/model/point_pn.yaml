@@ -1,0 +1,13 @@
+point_pn:
+  type: Point-PN
+  in_channels: 3
+  num_classes: 40
+  input_points: 1024
+  num_stages: 4
+  embed_dim: 36
+  k_neighbors: 40
+  beta: 100
+  alpha: 1000
+  LGA_block: [2, 1, 1, 1]
+  dim_expansion: [2, 2, 1, 1]
+  dataset_type: 'mn40'

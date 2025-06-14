@@ -1,0 +1,8 @@
+pt_hengshuang:
+  type: PT_Hengshuang
+  num_classes: 40
+  num_point: 1024
+  nneighbor: 16
+  nblocks: 4
+  transformer_dim: 512
+  input_dim: 0

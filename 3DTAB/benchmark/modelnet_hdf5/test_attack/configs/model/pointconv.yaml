@@ -1,0 +1,4 @@
+pointconv:
+  type: PointConv
+  num_classes: 40
+  feat_in: 0

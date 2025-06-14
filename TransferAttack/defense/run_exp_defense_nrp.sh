@@ -1,0 +1,16 @@
+bash nrp_defense.sh mifgsm
+bash nrp_defense.sh vmifgsm
+bash nrp_defense.sh vnifgsm
+bash nrp_defense.sh rap
+bash nrp_defense.sh gra
+bash nrp_defense.sh pgn
+bash nrp_defense.sh ncs
+bash nrp_defense.sh dim
+bash nrp_defense.sh sim
+bash nrp_defense.sh admix
+bash nrp_defense.sh maskblock
+bash nrp_defense.sh dem
+bash nrp_defense.sh decowa
+bash nrp_defense.sh sia
+bash nrp_defense.sh bsr
+bash nrp_defense.sh l2t

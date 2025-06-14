@@ -1,0 +1,9 @@
+type: GeoA3
+# NOTE: Perform additional configurations based on the settings in PF-Attack.
+binary_search_step: 1
+inner_loop_max_iter: 200
+attack_lr:    0.01
+proj_cfg:
+    norm_proj: False
+    use_real:  False
+    lp_clip:   True

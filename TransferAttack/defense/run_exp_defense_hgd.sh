@@ -1,0 +1,16 @@
+bash hgd_defense.sh mifgsm
+bash hgd_defense.sh vmifgsm
+bash hgd_defense.sh vnifgsm
+bash hgd_defense.sh rap
+bash hgd_defense.sh gra
+bash hgd_defense.sh pgn
+bash hgd_defense.sh ncs
+bash hgd_defense.sh dim
+bash hgd_defense.sh sim
+bash hgd_defense.sh admix
+bash hgd_defense.sh maskblock
+bash hgd_defense.sh dem
+bash hgd_defense.sh decowa
+bash hgd_defense.sh sia
+bash hgd_defense.sh bsr
+bash hgd_defense.sh l2t

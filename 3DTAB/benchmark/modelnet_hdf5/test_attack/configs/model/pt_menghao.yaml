@@ -1,0 +1,4 @@
+pt_menghao:
+  type: PT_Menghao
+  num_classes: 40
+  input_dim: 0

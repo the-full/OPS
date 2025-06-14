@@ -1,0 +1,6 @@
+type: OPS
+beta: 1.
+num_sample_neighbor: 5
+num_sample_operator: 5
+sample_ratios: [0.5, 0.75, 1.0, 1.25]
+sample_levels: [1, 2, 3, 4]

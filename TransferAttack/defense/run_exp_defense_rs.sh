@@ -1,0 +1,16 @@
+bash rs_defense.sh mifgsm
+bash rs_defense.sh vmifgsm
+bash rs_defense.sh vnifgsm
+bash rs_defense.sh gra
+bash rs_defense.sh pgn
+bash rs_defense.sh ncs
+bash rs_defense.sh dim
+bash rs_defense.sh sim
+bash rs_defense.sh dem
+bash rs_defense.sh maskblock
+bash rs_defense.sh sia
+bash rs_defense.sh bsr
+bash rs_defense.sh l2t
+bash rs_defense.sh rap
+bash rs_defense.sh admix
+bash rs_defense.sh decowa

@@ -1,0 +1,4 @@
+pointnet:
+  type: PointNet
+  num_classes: 40
+  feat_in: 0

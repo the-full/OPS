@@ -1,0 +1,16 @@
+python simple_eval.py --attack mifgsm --GPU_ID $1
+python simple_eval.py --attack vmifgsm --GPU_ID $1
+python simple_eval.py --attack vnifgsm --GPU_ID $1
+python simple_eval.py --attack rap --GPU_ID $1
+python simple_eval.py --attack gra --GPU_ID $1
+python simple_eval.py --attack pgn --GPU_ID $1
+python simple_eval.py --attack ncs --GPU_ID $1
+python simple_eval.py --attack dim --GPU_ID $1
+python simple_eval.py --attack sim --GPU_ID $1
+python simple_eval.py --attack admix --GPU_ID $1
+python simple_eval.py --attack maskblock --GPU_ID $1
+python simple_eval.py --attack dem --GPU_ID $1
+python simple_eval.py --attack decowa --GPU_ID $1
+python simple_eval.py --attack sia --GPU_ID $1
+python simple_eval.py --attack bsr --GPU_ID $1
+python simple_eval.py --attack l2t --GPU_ID $1

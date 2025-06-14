@@ -1,0 +1,2 @@
+type: PointCNN
+num_classes: 40
