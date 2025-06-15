@@ -18,7 +18,7 @@ bash install.sh
 
 该脚本将自动安装所需的所有依赖，包括第三方库和环境配置。
 
-接下来，下载 [bigfile](https://drive.google.com/file/d/1uC9ZNWR7VuDlqPzMQTmC787KB7QrPofi/view?usp=drive_link)，并将其中 `3DTAB` 子文件夹下的文件放置到以下对应位置：
+接下来，下载 [bigfile](https://drive.google.com/file/d/1-npsCNCYf3j_URhTqQSnnWMjMRirkg8U/view?usp=drive_link)，并将其中 `3DTAB` 子文件夹下的文件放置到以下对应位置：
 
 | 源路径（bigfile/3DTAB）              | 目标路径                                                   |
 | ------------------------------- | ------------------------------------------------------ |

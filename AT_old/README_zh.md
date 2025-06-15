@@ -16,7 +16,7 @@ bash install.sh
 
 该脚本会自动安装所有必要的依赖项，包括第三方库和环境配置。
 
-接下来，下载 [bigfile](https://drive.google.com/file/d/1uC9ZNWR7VuDlqPzMQTmC787KB7QrPofi/view?usp=drive_link)，并将其中 `AT_old` 子文件夹下的文件放置到以下对应位置：
+接下来，下载 [bigfile](https://drive.google.com/file/d/1-npsCNCYf3j_URhTqQSnnWMjMRirkg8U/view?usp=drive_link)，并将其中 `AT_old` 子文件夹下的文件放置到以下对应位置：
 
 | 源路径（bigfile/AT_old） | 目标路径              |
 | -------------------- | ----------------- |

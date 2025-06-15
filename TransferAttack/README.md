@@ -19,7 +19,7 @@ To set up the `TransferAttack` environment, follow these steps:
 
    This script will automatically set up all required dependencies, including third-party libraries and environment configurations.  
 
-2. Download the [bigfile](https://drive.google.com/file/d/1uC9ZNWR7VuDlqPzMQTmC787KB7QrPofi/view?usp=drive_link), and place its content into the corresponding directories as specified below:  
+2. Download the [bigfile](https://drive.google.com/file/d/1-npsCNCYf3j_URhTqQSnnWMjMRirkg8U/view?usp=drive_link), and place its content into the corresponding directories as specified below:  
 
    | **Source Path (bigfile/TransferAttack)** | **Destination Path**                  |  
    |------------------------------------------|---------------------------------------|  
@@ -30,7 +30,7 @@ To set up the `TransferAttack` environment, follow these steps:
    Ensure that all files are correctly placed before proceeding to the next step.  
 
 3. **(Optional) Pre-generated Adversarial Examples**  
-   Download the [exp_data-TransferAttack](https://drive.google.com/file/d/1VrSPeTXGPHFZOLEM4TpRjA8evD18RblO/view?usp=drive_link) archive, which includes all adversarial examples generated during our experiments for quick validation.  
+   Download the [exp_data-TransferAttack](https://drive.google.com/file/d/1lImziwWRpRF5IU5dFNV3fh2ZSKmz7m38/view?usp=drive_link) archive, which includes all adversarial examples generated during our experiments for quick validation.  
    - After downloading, place the contents of the archive into the following directory:  
 
      | **Source Path (exp_data-TransferAttack)** | **Destination Path**           |  

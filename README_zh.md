@@ -18,11 +18,11 @@
 
 ## 模型权重与数据集
 
-运行代码所需的模型权重与数据集可以从 [bigfile](https://drive.google.com/file/d/1uC9ZNWR7VuDlqPzMQTmC787KB7QrPofi/view?usp=drive_link) 下载。关于如何放置这些权重的详细说明，请参考各自文件夹中的 `README.md` 文件。
+运行代码所需的模型权重与数据集可以从 [bigfile](https://drive.google.com/file/d/1-npsCNCYf3j_URhTqQSnnWMjMRirkg8U/view?usp=drive_link) 下载。关于如何放置这些权重的详细说明，请参考各自文件夹中的 `README.md` 文件。
 
 ## 用于验证的对抗样本
 
-为方便验证，我们提供了在 **TransferAttack** 实验中生成的所有对抗样本，可从[此链接](https://drive.google.com/file/d/1VrSPeTXGPHFZOLEM4TpRjA8evD18RblO/view?usp=drive_link)下载。
+为方便验证，我们提供了在 **TransferAttack** 实验中生成的所有对抗样本，可从[此链接](https://drive.google.com/file/d/1lImziwWRpRF5IU5dFNV3fh2ZSKmz7m38/view?usp=drive_link)下载。
 
 ## 致谢
 

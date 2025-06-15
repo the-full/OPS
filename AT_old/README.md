@@ -16,7 +16,7 @@ bash install.sh
 
 This script will automatically install all required dependencies, including third-party packages and environment configurations.  
 
-Next, download [bigfile](https://drive.google.com/file/d/1uC9ZNWR7VuDlqPzMQTmC787KB7QrPofi/view?usp=drive_link), and place the files from the `AT_old` subfolder in the appropriate locations as follows:
+Next, download [bigfile](https://drive.google.com/file/d/1-npsCNCYf3j_URhTqQSnnWMjMRirkg8U/view?usp=drive_link), and place the files from the `AT_old` subfolder in the appropriate locations as follows:
 
 | Source Path(bigfile/AT_old)            | Destination Path           |
 |----------------------------------------|----------------------------|

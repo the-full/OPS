@@ -19,7 +19,7 @@
 
    此脚本会自动安装所有必需的依赖项，包括第三方库和环境配置。
 
-2. 下载 [bigfile](https://drive.google.com/file/d/1uC9ZNWR7VuDlqPzMQTmC787KB7QrPofi/view?usp=drive_link)，并将其内容按照下表放置到对应目录下：
+2. 下载 [bigfile](https://drive.google.com/file/d/1-npsCNCYf3j_URhTqQSnnWMjMRirkg8U/view?usp=drive_link)，并将其内容按照下表放置到对应目录下：
 
    | **源路径（bigfile/TransferAttack）** | **目标路径**                          |
    | ------------------------------- | --------------------------------- |
@@ -31,7 +31,7 @@
 
 3. **（可选）使用预生成的对抗样本**
 
-   下载包含实验中生成的所有对抗样本的压缩包：[exp_data-TransferAttack](https://drive.google.com/file/d/1VrSPeTXGPHFZOLEM4TpRjA8evD18RblO/view?usp=drive_link)。
+   下载包含实验中生成的所有对抗样本的压缩包：[exp_data-TransferAttack](https://drive.google.com/file/d/1lImziwWRpRF5IU5dFNV3fh2ZSKmz7m38/view?usp=drive_link)。
 
    * 解压后，将内容放置到以下目录：
 
