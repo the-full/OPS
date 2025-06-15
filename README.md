@@ -30,7 +30,7 @@ For convenience, we provide all the adversarial examples generated during the ex
 Our code is inspired by many excellent works. We sincerely thank the contributors of the following projects:
 
 * The benchmark setup and attack evaluation process are based on [TransferAttack](https://github.com/Trustworthy-AI-Group/TransferAttack).
-* The implementation of iterative attack methods and hook design is based on [ARES](https://github.com/thu-ml/ares).
+* The implementation of iterative attack methods and registry design is based on [ARES](https://github.com/thu-ml/ares).
 * The attack pipeline for C\&W-based methods draws from [GeoA3](https://github.com/Gorilla-Lab-SCUT/GeoA3) and [3d-adv-pc](https://github.com/xiangchong1/3d-adv-pc).
 * The evaluation code for models trained with ensemble adversarial training is adapted from [admix](https://github.com/JHL-HUST/Admix).
 * The implementations of models, attack methods, and defense methods in 3DTAB reference the following repositories:
