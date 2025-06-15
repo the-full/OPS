@@ -29,7 +29,7 @@
 项目代码参考了许多优秀工作的代码，我们在此表示由衷的感谢：
 
 - 基准的搭建和攻击的评估流程参考了 [TransferAttack](https://github.com/Trustworthy-AI-Group/TransferAttack)
-- 基于迭代的攻击方法的代码实现以及 hook 的设计参考了 [ARES](https://github.com/thu-ml/ares)
+- 基于迭代的攻击方法的代码实现以及 registry 的设计参考了 [ARES](https://github.com/thu-ml/ares)
 - 基于 C&W Attack 的攻击方法的攻击流程参考了 [GeoA3](https://github.com/Gorilla-Lab-SCUT/GeoA3) 和 [3d-adv-pc](https://github.com/xiangchong1/3d-adv-pc)
 - 针对集成对抗训练防御下的模型的评估代码参考了 [admix](https://github.com/JHL-HUST/Admix)
 
